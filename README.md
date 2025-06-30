@@ -20,5 +20,5 @@ A simple and lightweight Python script that uses **FFmpeg** to convert `.ts` (MP
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/TS-to-MP4-Batch-Converter.git
+git clone https://github.com/Darkwarrior247/TS-to-MP4-Batch-Converter.git
 cd TS-to-MP4-Batch-Converter
