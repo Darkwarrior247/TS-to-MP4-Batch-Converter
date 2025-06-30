@@ -57,3 +57,26 @@ python ts_to_mp4_converter.py
 2. Convert all .ts files in a folder
 Enter choice (1 or 2):
 
+
+- **Single file conversion:**  
+  `C:\Users\YourName\Videos\video.ts`
+
+- **Batch conversion:**  
+  `C:\Users\YourName\Videos\TS_Folder`
+
+### 🛠 How It Works
+- Uses Python's `subprocess` to run FFmpeg
+- Converts .ts files by remuxing (no quality loss)
+- Output .mp4 files are saved in the same directory
+
+### ❓ Troubleshooting
+**FFmpeg not found error?**
+1. Verify FFmpeg is installed
+2. Confirm the `bin` folder is in your system PATH
+3. Restart your terminal/PyCharm after changes
+
+### 💡 Future Features
+- GUI with drag-and-drop support
+- Re-encoding options (quality/bitrate control)
+- Detailed logging and error tracking
+- Progress indicators for batch conversions
